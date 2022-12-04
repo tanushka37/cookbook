@@ -1,28 +1,395 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  
-  <div class="cd-logo">
-    
-  </div>
-  
-  
-  <div class="textSection">
-    <h3>SIMPLE CHOCOLATE CAKE</h3>
-    This recipe is a great recipe to make a simple choclate cake.
-    It uses ingredients that can be found in most kitchen cupboards.
-    You just need to gather all the ingredients, put them into a big bowl
-    and mix them with a blender or mixer!
-    It can also be used to make cupcakes too, if you adjust
-    the cooking times as mentioned below.
-    Then you can decorate your cake however you'd like to.
-    My favourite is Nutella and sliced banana. 
-    </p>
-  
-  
-  <div class="kitchen-equipment">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
 
-  <html>
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img  src="image/logo.JPG"></a>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="categories.html">Menu</a></li>
+        
+                <li><a onclick="myFunction2()" href="Shop.html"><script>
+                    function myFunction2() {
+                      alert("This page is under construction. Are you sure you want to proceed? ");
+                    }
+                    </script>Shop</a></li>
+                <li><a onclick="myFunction3()" href="Checkout.html">Cart <script>
+                    function myFunction3() {
+                        alert("Do not click ok or face dire consequences.")
+                    }
+                </script></a></li>
+            </ul>
+
+            <div class="icon">
+                <i onclick="myFunction()" class="fa-solid fa-hand"><script>
+                    function myFunction() {
+                      alert("We hope you are having a good day!");
+                    }
+                    </script>
+                    </i>
+            <i class="fa-solid fa-toggle-on" onclick="document.getElementById('logo').src='image/main_img.png'"></i> 
+
+            <i onclick="document.getElementById('logo').src='image/javascript2.jpg'" class="fa-solid fa-toggle-off"></i></a>
+
+            <i onclick="document.getElementById('logo').src='image/javascript3.jpg'" class="fa-solid fa-tally-3"></i>
+            <i onclick="document.getElementById('logo').src='image/javascript3.jpg'" class="fa-solid fa-tally-3"></i>
+            </div>
+
+        </nav>
+
+        <div class="main">
+
+            <div class="men_text">
+                <h1>Cooking Fresh Food, <br>Made <br><span>Student Friendly!</span></h1>
+            </div>
+
+            <div class="main_image">
+                <img id="logo" src="image/main_img.png">
+            </div>
+
+        </div>
+
+        <p>
+            Getting up attending a morning class can be a greater task than slaying a dragon in on a hill, often. No, we are not saying that you were up all night playing videogames, but we are saying that you do deserve a good, nutritious breakfast that is quick, cheap, and most importantly, tasty! So come aboard our mission to make cooking accessible and meal prepping not something just for dorks.<br><br><i>Click on the nav bar icons and links for various functions.</i>
+        </p>
+       
+
+        <div class="main_btn">
+            <a href="categories.html">Get Started!</a>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+
+    </section>
+        
+   
+    <div class="parallax"></div>
+
+    <div style="height:460px;background-color:#fac031;font-size:36px">
+
+        <form action="action_page.php">
+            <div class="container">
+              <h2 style="font-size: 50px">Subscribe to the Student Chef Newsletter</h2>
+              <p style="font-size: 20px;">And keep up with our awesome recipes! </p>
+            </div>
+          
+            <div class="container" style="background-color:#fac031; font-size: small;">
+              <input type="text" placeholder="Name" name="name" required>
+              <input type="text" placeholder="Email address" name="mail" required>
+              <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+              </label>
+            </div>
+          
+            <div class="container">
+              <input type="submit" value="Subscribe">
+            </div>
+          </form>
+    </div>
+    
+    <div class="parallax"></div>
+
+    
+    <div class="review" id="Review">
+        <h1>Patrons of the<span>Month</span></h1>
+<p style="text-align: center; ">Support us on Patreon and keep this blog running. Top patrons get special goodies and sneak peaks on new projects.<br><Br>Click on the images below to find us on Patreon. </p>
+        <div class="review_box">
+            <div class="review_card">
+
+                <div class="review_profile">
+                   <a href="https://www.patreon.com"> <img src="image/review_1.png"></a>
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Jiya <br></h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    
+                    </div>
+
+                    <div class="review_social">
+                       <a href="https://facebbok.com/"> <i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://patreon.com/"><i class="fa-brands fa-patreon"></i></a>
+                    </div>
+
+                    <p>
+                      <I>Second tier Patron</I><br><br>
+                     "I simply love the Student Chef initiative and applaud the creators for creating a simple cookbook for all the struggling students out there. I love the soups, they are so easy to make!"
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <a href="https://www.patreon.com"><img src="image/review_2.png"></a>
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Pritam</h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        
+                    </div>
+
+                    <div class="review_social">
+                        <a href="https://facebbok.com/"> <i class="fa-brands fa-facebook-f"></i></a>
+                         <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                         <a href="https://patreon.com/"><i class="fa-brands fa-patreon"></i></a>
+                     </div>
+
+                    <p>
+                        <i>Third Tier Patron</i><br><br>
+                        "I am impressed by the dedication towards the aesthetic appeal yet simplicity of these recipes. Thank you student Chef for helping me maintain a healthy lifestyle without being holed into the kitchen all day like a loner."
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <a href="https://www.patreon.com"><img src="image/review_3.png"></a>
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Rekha</h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="review_social">
+                        <a href="https://facebbok.com/"> <i class="fa-brands fa-facebook-f"></i></a>
+                         <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                         <a href="https://patreon.com/"><i class="fa-brands fa-patreon"></i></a>
+                     </div>
+
+                    <p>
+                        <i>Fourth Tier Patron</i>
+                        <br><br>"Thank God for Student Chef! I love the quirky writing style and the amazing simple to follow recipes. All my friends love me now because I make amazing dishes whenever they visit."
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="review_card">
+
+                <div class="review_profile">
+                    <a href="https://www.patreon.com"><img src="image/review_4.png"></a>
+                </div>
+
+                <div class="review_text">
+                    <h2 class="name">Elon Musk</h2>
+
+                    <div class="review_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="review_social">
+                        <a href="https://facebbok.com/"> <i class="fa-brands fa-facebook-f"></i></a>
+                         <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                         <a href="https://patreon.com/"><i class="fa-brands fa-patreon"></i></a>
+                     </div>
+
+                    <p>
+                        <i>Fifth Tier Patron</i>
+                        <br><br>"If I am being honest, I only subscribed to their Patreon because my girlfriend told me she would break up with me if I don't eat something other than chocos for dinner. SHe left me but I was cheating, Student Chef is great."
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+<br>
+<br>
+<br>
+<br><br>
+<br><br>
+<br><br><br>
+<br>
+
+  
+
+
+
+
+    <div class="team">
+        <h1>Our<span>Team</span></h1>
+
+        <div class="team_box">
+            <div class="profile">
+                <img src="image/chef1.png">
+
+                <div class="info">
+                    <h2 class="name">Tanushka</h2>
+                    <p class="bio">The head chef and foodie who designs the menu.</p>
+
+                    <div class="team_icon">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="image/photo-1518737003272-dac7c4760d5e.pdf"><i class="fa-brands fa-instagram"></i></a>
+                       
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="image/chef2.png">
+
+                <div class="info">
+                    <h2 class="name">Tanu</h2>
+                    <p class="bio">Our Merch Manager, who runs the business side.</p>
+
+                    <div class="team_icon">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="image/photo-1518737003272-dac7c4760d5e.pdf"><i class="fa-brands fa-instagram"></i></a>
+                       
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="image/chef3.jpg">
+
+                <div class="info">
+                    <h2 class="name">Tanudi</h2>
+                    <p class="bio">Social Media Manager who keeps the tweets coming!</p>
+
+                    <div class="team_icon">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="image/photo-1518737003272-dac7c4760d5e.pdf"><i class="fa-brands fa-instagram"></i></a>
+                       
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="image/chef4.jpg">
+
+                <div class="info">
+                    <h2 class="name">Tslayer</h2>
+                    <p class="bio">She's around for the vibes and eating the leftovers.</p>
+
+                    <div class="team_icon">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="image/photo-1518737003272-dac7c4760d5e.pdf"><i class="fa-brands fa-instagram"></i></a>
+                       
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+<div class="team">
+    <h1>Find Our<span>Store</span></h1>
+<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112125.42028998169!2d77.25096501640627!3d28.5721834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef54f1ca89a9%3A0x821312549b93aeda!2sThe%20Disneyland!5e0!3m2!1sen!2sin!4v1670022105733!5m2!1sen!2sin"  width=100% height="450"  margin= "30" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+</div>
+
+
+    <footer>
+        <div class="footer_main">
+
+            <div class="footer_tag">
+                <h2>Menu</h2>
+                <p><a href="soups.html">Soups</a></p>
+                <p><a href="soups.html">Sandwiches</a></p>
+                <p><a href="soups.html">Main Course</a></p>
+                <p><a href="soups.html">Dessert</a></p>
+                <p><a href="soups.html">Beverages</a></p>
+                <p><a href="soups.html">Salads</a></p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Quick Link</h2>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="categories.html">Menu</a></p>
+                <p><a href="soups.html">Soups</a></p>
+                <p><a href="shop.html">Shop</a></p>
+                <p><a href="Checkout.html">Cart</a></p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Contact</h2>
+                <p>+94 12 3456 789</p>
+                <p>+94 25 5568456</p>
+                <p>Tanu@gmail.com</p>
+                <p>studentchef@gmail.com</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Shop</h2>
+                <p>Cookbooks</p>
+                <p>Mixers</p>
+                <p>Spatula Sets</p>
+                <p>Aprons</p>
+            </div>
+
+            <div class="footer_tag">
+                <h2>Follows</h2>
+                <a href="https://facebbok.com/"> <i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://patreon.com/"><i class="fa-brands fa-patreon"></i></a>
+            </div>
+            <br>
+            <br>
+            <br>
+</div></footer>
+
+
+    
+</body>
+</html>

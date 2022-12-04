@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+       
+       section{
+    width: 100%;
+    height: 100vh;
+}
+
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1000;
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+section nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+
+section nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    transition: 0.2s linear;
+}
+
+section nav ul li a:hover::after{
+    width: 100%;
+}
+
+section nav ul li a:hover{
+    color: #fac031;
+}
+
+section nav .icon i{
+    font-size: 18px;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section nav .icon i:hover{
+    color: #fac031;
+}
+       
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  
+  
+}
+
+.bg-img-1, .kitchen-equipment, .bg-img-2, .bg-img-3, .bg-img-4, .bg-img-5, .bg-img-6 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  min-height: 50%;
+  background-attachment: fixed;
+}
+
+.bg-img-1 {
+  background-image: url("image/bg-img-1.jpg");
+  min-height: 60%;
+  background-size:cover;
+}
+.bg-img-2 {
+  background-image: url("image/bg-img-2.jpg");
+  min-height: 60%;
+  background-size:cover;
+}
+.bg-img-3 {
+  background-image: url("image/bg-img-3.jpg");
+  min-height: 70%;
+  background-size:cover;
+}.bg-img-4 {
+  background-image: url("image/bg-img-4.jpg");
+  min-height: 70%;
+  background-size:cover;
+}.bg-img-5 {
+  background-image: url("image/bg-img-5.jpg");
+  min-height: 60%;
+  background-size:cover;
+}
+.bg-img-6 {
+  background-image: url("image/bg-img-6.jpg");
+  min-height: 100%;
+  background-size:cover;
+}
+
+h3 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font: 50px "Lato", sans-serif;
+  color: #fac031;
+  text-align:center
+}
+p{
+    color:black
+    
+}
+h2{
+    color: #fac031
+}
+.textSection {
+  background-color:white;
+  padding:50px 80px;
+  font-size: 18px;
+}
+.textSection2 {
+  background-color:white;
+  padding:50px 80px;
+  text-align: right;
+  font-size: 19px;
+}
+.textSection3 {
+  background-color:white;
+  padding:50px 80px;
+  
+  font-size: 19px;
+}
+.textSection4 {
+  background-color:white;
+  padding:50px 80px;
+  text-align: right;
+  font-size: 19px;
+}
+.textSection5 {
+  background-color:white;
+  padding:50px 80px;
+ 
+  font-size: 19px;
+}
+
+.kitchen-equipment {
+  background-image: url("image/kitchen-equipment.jpg");
+  min-height: 50%;
+}
+    </style>
+    <title>Food Website</title>
+</head>
+<body>
+
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <img src="image/logo.JPG">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="categories.html">Menu</a></li>
+        
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="Checkout.html">Cart</a></li>
+            </ul>
+
+            <div class="icon">
+                <a href="https://google.com/"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="https://youtube.com/"><i class="fa-solid fa-heart"></i></a>
+                <a href="Checkout.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+        </nav>
+
+  <div class="bg-img-1">
+    
+  </div>
+  
+  <div class="textSection">
+    <h3>Simple Tomato Soup</h3>
+    <p>This easy Tomato Soup recipe makes a creamy, rich tomato soup that's perfect for enjoying as a hearty lunch or light dinner. Zesty fresh tomatoes and real cream create a truly comforting, velvety smooth tomato soup from scratch - in less than 30 minutes. My tried-and-true instructions with photos and video even include steps for making the best homemade bread croutons with barely any effort!
+
+
+    </p>
+  </div>
+  <div class="kitchen-equipment">
+
+</div>
+<div class="textSection">
+    <h2 style="font-size: 25px;"><b>Ingredients</b></h2>
+    <p>▢2 tablespoons Butter or olive oil<br>
+        ▢2 bay leaf or tej patta (small to medium-sized) – fresh or dried<br>
+        ▢⅓ cup finely chopped onions or 1 medium onion<br>
+        ▢½ teaspoon finely chopped garlic or 2 to 3 small to medium garlic cloves<br>
+        ▢17.64 oz tomatoes or 6 to 7 medium to large tomatoes<br>
+        ▢236.59 ml water or low sodium vegetable broth<br>
+        ▢salt as required<br>
+        ▢1 teaspoon raw sugar or white sugar<br>
+        
+        ▢freshly crushed black pepper – as required<br>
+    </p>
+  </div>
+
+  <div class="bg-img-2">
+
+</div>
+
+<div class="textSection2">
+    <h2 style="font-size: 25px;"><b>Cooking Tomatoes</b></h2>
+    <p>Heat butter until it melts in a saucepan or a pot. Keep the heat to low or medium-low. Add bay leaves and sauté for a few seconds. 
+    Add chopped onions and garlic. Stir and sauté until onions soften for about 3 to 4 minutes.Add chopped tomatoes and salt. Mix well.
+
+    Cover pan and simmer on a low to medium-low heat until tomatoes soften or for about 8 to 10 minutes.
+    There is no need to add water. But do keep an eye when the tomatoes are simmering. If the liquids dry up then add a splash of water and continue cooking.<br><br>
+    After the tomatoes have softened, remove from the heat and cool. Take out the bay leaves and discard.
+    </p>
+</div>
+
+<div class="bg-img-3">
+
+</div>
+
+<div class="textSection3">
+    <h2 style="font-size: 25px;"><b>Blending and Straining</b></h2>
+    <p>Once the tomato mixture has cooled to a point that’s safe to work with, add it to a blender jar. You can also use an immersion blender.
+        Blend to a smooth consistency.<br><br>
+        
+        You have the option of straining the puree through a strainer for an even smoother soup, but this step isn’t necessary.
+        If you do choose to strain the puree, move a spoon through it so that everything is strained except the seeds. 
+    </p>
+</div>
+<div class="bg-img-4">
+
+</div>
+<div class="textSection4">
+    <h2 style="font-size: 25px;"><b>Simmering Further</b></h2>
+    <p>Pour the tomato puree back into the pot, and add water and sugar. Mix and stir well.
+        Simmer on a low heat until soup becomes hot not boiling.
+        Season with freshly crushed black pepper and stir.
+        Turn off the heat and stir in, 1-2 tablespoons of heavy cream, depending on desired richness.<br><br>
+        Mix well, taste, and add more salt and pepper if needed.
+    </p>
+</div>
+<div class="bg-img-5">
+
+</div>
+<div class="textSection5">
+    <h2 style="font-size: 25px;"><b>Toasting the Bread</b></h2>
+    <p>When the tomato mixture is cooling, you can make the bread croutons. Mix together the bread cubes, olive oil, salt and freshly crushed black pepper in a baking tray. Toss to coat.
+        Bake in a preheated oven for about 3 to 5 minutes at 200 degrees Celsius (400 degrees Fahrenheit) until bread cubes are golden and crisp. Or, you can toast the bread cubes in a skillet until golden brown on all sides.<br> <br>
+        Pour the hot tomato soup into bowls. Add the croutons directly on top of the soup, or serve on the side. You can also garnish the tomato soup with a bit of freshly chopped parsley or coriander leaves (cilantro) or basil sprigs or mint leaves.<br><br>
+        This soup is great served fresh, but also keeps well in a sealed container in the fridge for up to 4 days.
+    </p>
+</div>
+<div class="bg-img-6">
+
+</div>
+</body>
+</html>
